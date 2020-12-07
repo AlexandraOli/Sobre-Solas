@@ -12,10 +12,7 @@ header{
     background-color:  #FFC8A8;
     height: 50px;   
 }
-h2 {
-    font-size: 15px;
 
-}
 .logo_header{
     display: flex;
     background-color: #FFC8A8;
@@ -331,4 +328,64 @@ footer{
     margin-left: 0px;
     margin-top: 20px;
     width: 80px;
+}
+
+@media (max-width: 300px){
+
+    /*------------------------------ header------------------------------*/
+
+    header{
+        width: 841%;
+        background-color:  #FFC8A8;
+        height: 50px;   
+    }
+   
+    .logo_header{
+        display: flex;
+       
+        margin-left: -36%;
+        margin-top: -100px;
+        width: 150px;
+        height: 10px;
+    
+        
+    }
+    
+      
+    .buttons_head{
+        display: flex;
+        margin-top: auto;
+        margin-left: 50%;
+    
+      
+    }
+    
+    .button{
+        font-size: 12px;
+        margin-left: -700%;
+        width: 70px;
+        height: 22px;
+       
+    } 
+    .button:hover{
+        background-color: #f29762;
+        color: rgb(0, 0, 0);
+        filter: drop-shadow(0px 4px 4px#6f3a1b(0, 0, 0, 0.25));
+        }
+      
+    
+    h1{
+        font-size: 15px;
+        margin-top: 15px;
+        width: 120vh;
+      
+    }
+    
+    #img_logo{
+        
+        width: 60px;
+        padding: 0vh 1vh;
+        
+    }
+
 }

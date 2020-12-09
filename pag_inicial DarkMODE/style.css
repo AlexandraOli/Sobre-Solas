@@ -64,7 +64,7 @@ h1{
 
 #img_logo{
     
-    width: 60px;
+    width: 20px;
     padding: 0vh 1vh;
     
 }
@@ -389,60 +389,3 @@ footer{
     }
 
 }
-
-
-    /*------------------------------ header------------------------------*/
-
-    .modal_saibamais{
-
-        width: 100vw;
-        height: 100vh;
-        background-color: rgba(0,0,0,.5);
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        z-index: 9000;
-
-        display: none;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .modal_saibamais.mostrar{
-        display: flex;
-      }
-
-    .modal{
-        background-color:#f29762;
-        position: relative;
-        width: 60%;
-        min-width: 300px;
-        height: 40%;
-        padding: 40px;
-        border-radius: 20px;
-    }
-
-    .x_sair{
-        
-        position: absolute;
-        top: 10px;
-        right: 15px;
-        font-size: 20px;
-        width: 35px;
-        height: 35px;
-
-        color: rgb(255, 255, 255);
-        background-color:#f29762;
-        border: 3px solid white;
-        box-shadow: 0 1px rgb(0, 0, 0, .3);
-
-        border-radius: 50%;
-        outline: none;
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-    }
-    
-
- 

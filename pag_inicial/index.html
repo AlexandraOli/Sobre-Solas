@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet"type="text/css"href="style.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="">
     <title>Homepage</title>
 </head>
 <body>
@@ -44,7 +45,7 @@
       <p class="desc_saiba_mais" id="desc_2" >Sabe quando você quer sair mas não faz ideia pra onde? </p>
       <p class="desc_saiba_mais" id="desc_3" >Preparamos os melhores lugares em São Paulo pra você e seus amigos darem um rolê.
       </p>
-      <div> <button id="saiba_mais" ><h2 class="h2_saibamais">Saiba Mais</h2></button></div> </div>
+      <div> <button id="saiba_mais" class="saiba_mais" ><h2 class="h2_saibamais">Saiba Mais</h2></button></div> </div>
     
   </aside>
 
@@ -164,6 +165,27 @@
 
     </div>
 </div>
+
+<script>
+  
+
+ function iniciaModal (modalID) {
+    const modal = document.getElementById(modalID);
+    modal.classList.add('mostrar');
+    modal.addEventListener('click', (evento) => {
+      console.log(evento)
+    });
+   
+ }
+
+ const saiba_mais = document.querySelector('.saiba_mais');
+  saiba_mais.addEventListener('click', () => iniciaModal ('modal_saibamais'));
+
+
+ 
+    
+</script>
+
 
 </body>
 </html>
